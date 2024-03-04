@@ -1,0 +1,40 @@
+/*Cusom Properties o variables css*/
+:root{
+    --blanco: #FFFFFF;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
+    --fuente-principal:3.8rem;
+}
+
+/*Conf inicial para REM 1rem=10px es adaptabale a cualquier pantalla*/
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+}
+/*Termino conf inicial para rem ya que no se pixelea en tvs*/
+
+/*##########################################*/
+body{
+    font-family: 'Krub', sans-serif;
+}
+.titulo{
+    text-align:center;
+    font-size:3.8rem;
+}
+.titulo span{
+    font-size:2rem;
+}
+.contenedor{
+    width:120rem;
+    margin-top: 0px;
+    margin-right: auto;/*como es auto se apata solo*/
+    margin-bottom: 0px;
+    margin-left: auto;/*como es auto se apata solo*/
+}
+.navegacion-principal{
+    background-color:var(--secundario);
+}
