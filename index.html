@@ -6,29 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Freelancer</title>
     <!--Sirve para normalizar el css en todos los navegadores-->
-    <link rel="preload" href="css/normalize.css" as="style">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/normalize.css" as="style" />
+    <link rel="stylesheet" href="css/normalize.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
-    
-    <link rel="preload" href="css/style.css" as="style">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet" />
+
+    <link rel="preload" href="css/style.css" as="style" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
+    <!--################## HEADER ##################-->
     <header>
         <h1 class="titulo">Nelson Olarte Herrera <span>Freelancer</span></h1>
     </header>
 
-    <nav class="navegacion-principal contenedor">
-        <a href="#">Inicio</a>
-        <a href="#">Sobre mi</a>
-        <a href="#">Clientes</a>
-        <a href="#">Contacto</a>
-    </nav>
+    <!--################## NAV##################-->
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="#">Inicio</a>
+            <a href="#">Sobre mi</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </div>
 
+    <!--################## RESUMEN ##################-->
     <section>
         <h2 class="titulo">Diseño y Desarrollo web freelancer</h2>
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88"
@@ -42,6 +47,7 @@
         <a href="#">Contactar</a>
     </section>
 
+    <!--################## SERVICIOS ##################-->
     <main>
         <h2>Mis servicios</h2>
         <section>
@@ -111,6 +117,7 @@
         </section>
     </main>
 
+    <!--################## CONTACTO ##################-->
     <section>
         <h2>Contacto</h2>
         <form action="">
@@ -118,26 +125,28 @@
                 <legend>Contactame</legend>
                 <div>
                     <label for="txtn">Nombre</label>
-                    <input type="text" name="" id="txtn" placeholder="Escriba nombre">
+                    <input type="text" name="" id="txtn" placeholder="Escriba nombre" />
                 </div>
                 <div>
                     <label for="txttel">Telefono</label>
-                    <input type="tel" name="" id="txttel" placeholder="Ingrese tel">
+                    <input type="tel" name="" id="txttel" placeholder="Ingrese tel" />
                 </div>
                 <div>
                     <label for="txtcorr">Correo</label>
-                    <input type="email" name="" id="txtcorr" placeholder="Ingresa tu email">
+                    <input type="email" name="" id="txtcorr" placeholder="Ingresa tu email" />
                 </div>
                 <div>
                     <label for="txtmen">Mensaje</label>
                     <textarea name="" id="txtmen" cols="30" rows="10"></textarea>
                 </div>
                 <div>
-                    <input type="submit" value="enviar">
+                    <input type="submit" value="enviar" />
                 </div>
             </fieldset>
         </form>
     </section>
+
+    <!--################## PIE ##################-->
     <footer>
         <p>Todos los derechos reservados, Nelson Olarte Herrera</p>
     </footer>

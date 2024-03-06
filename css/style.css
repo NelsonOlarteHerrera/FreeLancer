@@ -1,4 +1,4 @@
-/*Cusom Properties o variables css*/
+/*Custom Properties o variables css*/
 :root{
     --blanco: #FFFFFF;
     --oscuro: #212121;
@@ -21,6 +21,8 @@ body{
 body{
     font-family: 'Krub', sans-serif;
 }
+
+/*################## HEADER ##################*/
 .titulo{
     text-align:center;
     font-size:3.8rem;
@@ -29,12 +31,15 @@ body{
     font-size:2rem;
 }
 .contenedor{
-    width:120rem;
-    margin-top: 0px;
-    margin-right: auto;/*como es auto se apata solo*/
-    margin-bottom: 0px;
-    margin-left: auto;/*como es auto se apata solo*/
+    width: 120rem;
+    margin: 0 auto;
+}
+.nav-bg{
+    background-color:var(--secundario);
 }
 .navegacion-principal{
-    background-color:var(--secundario);
+    
+}
+.navegacion-principal a{
+    background-color: var(--primario);
 }
