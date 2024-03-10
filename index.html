@@ -132,27 +132,30 @@
         <!--################## CONTACTO ##################-->
         <section>
             <h2>Contacto</h2>
-            <form action="">
+            <form class="formulario">
                 <fieldset>
                     <legend>Contactame</legend>
-                    <div>
-                        <label for="txtn">Nombre</label>
-                        <input type="text" name="" id="txtn" placeholder="Escriba nombre" />
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label for="txtn">Nombre</label>
+                            <input class="input-text" type="text" name="" id="txtn" placeholder="Escriba nombre" />
+                        </div>
+                        <div class="campo">
+                            <label for="txttel">Telefono</label>
+                            <input class="input-text" type="tel" name="" id="txttel" placeholder="Ingrese tel" />
+                        </div>
+                        <div class="campo">
+                            <label for="txtcorr">Correo</label>
+                            <input class="input-text" type="email" name="" id="txtcorr" placeholder="Ingresa tu email" />
+                        </div>
+                        <div class="campo">
+                            <label for="txtmen">Mensaje</label>
+                            <textarea class="input-text" name="" id="txtmen" cols="30" rows="10"></textarea>
+                        </div>
                     </div>
-                    <div>
-                        <label for="txttel">Telefono</label>
-                        <input type="tel" name="" id="txttel" placeholder="Ingrese tel" />
-                    </div>
-                    <div>
-                        <label for="txtcorr">Correo</label>
-                        <input type="email" name="" id="txtcorr" placeholder="Ingresa tu email" />
-                    </div>
-                    <div>
-                        <label for="txtmen">Mensaje</label>
-                        <textarea name="" id="txtmen" cols="30" rows="10"></textarea>
-                    </div>
-                    <div>
-                        <input type="submit" value="enviar" />
+                    
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-100" type="submit" value="enviar" />
                     </div>
                 </fieldset>
             </form>
@@ -160,7 +163,7 @@
     </main>
 
     <!--################## PIE ##################-->
-    <footer>
+    <footer class="footer">
         <p>Todos los derechos reservados, Nelson Olarte Herrera</p>
     </footer>
 </body>
