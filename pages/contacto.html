@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Psicof/contacto</title>
+    <!--Sirve para normalizar el css en todos los navegadores-->
+    <link rel="preload" href="../css/normalize.css" as="style" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet" />
+
+    <link rel="preload" href="../css/contacto.css" as="style"/>
+    <link rel="stylesheet" href="../css/contacto.css"/>
+</head>
+<body>
+    <!--################## HEADER ##################-->
+    <header>
+        <h1 class="titulo">Psicof <span>Centro Psicológico Familiar</span></h1>
+    </header>
+
+    <!--################## NAV ##################-->
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="../index.html">Inicio</a>
+            <a href="sobremi.html">Sobre mi</a>
+            <a href="clientes.html">Equipo</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </div>
+    <!--################## CONTACTO ##################-->
+    <section>
+        <h2>Contacto</h2>
+        <form class="formulario">
+            <fieldset>
+                <legend>Contactame</legend>
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label for="txtn">Nombre</label>
+                        <input class="input-text" type="text" name="" id="txtn" placeholder="Escriba nombre" />
+                    </div>
+                    <div class="campo">
+                        <label for="txttel">Telefono</label>
+                        <input class="input-text" type="tel" name="" id="txttel" placeholder="Ingrese tel" />
+                    </div>
+                    <div class="campo">
+                        <label for="txtcorr">Correo</label>
+                        <input class="input-text" type="email" name="" id="txtcorr" placeholder="Ingresa tu email" />
+                    </div>
+                    <div class="campo">
+                        <label for="txtmen">Mensaje</label>
+                        <textarea class="input-text" name="" id="txtmen" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                
+                <div class="alinear-derecha flex">
+                    <input class="boton w-100" type="submit" value="enviar" />
+                </div>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
