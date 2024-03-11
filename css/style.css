@@ -5,7 +5,7 @@
     --primario: #f7d302;/*#ffc107*/
     --secundario: #1e1bd6dd;/*#0097a7*/
     --gris: #757575;
-    --gris-claro:#DFE9F3;
+    --gris-claro:#acc6ff;/**/
     --fuente-principal: 3.8rem;
 }
 
@@ -42,7 +42,8 @@ h2{
     font-size: 2.8rem;
 }
 h3{
-    font-size: 1.8rem;
+    font-size: 3rem;
+    font-weight: bolder;
 }
 h1,h2,h3{
     text-align: center;
