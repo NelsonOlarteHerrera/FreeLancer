@@ -2,8 +2,8 @@
 :root {
     --blanco: #ffffff;
     --oscuro: #212121;
-    --primario: #ffc107;
-    --secundario: #0097a7;
+    --primario: #f7d302;/*#ffc107*/
+    --secundario: #1e1bd6dd;/*#0097a7*/
     --gris: #757575;
     --gris-claro:#DFE9F3;
     --fuente-principal: 3.8rem;
@@ -96,16 +96,16 @@ h1,h2,h3{
     color: var(--oscuro);
 }
 
-/*############## SECTION HERO ###############*/
-.hero{
-    background-image: url(../img/hero.jpg);
+/*############## SECTION BANNER ###############*/
+.banner{
+    background-image: url(../img/psicof.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
     position: relative;/*padre posicion relativa*/
     margin-bottom: 2rem;
 }
-.contenido-hero{
+.contenido-banner{
     position: absolute;
     background-color: rgba(4, 4, 4, 0.7);
     width: 100%;
@@ -116,7 +116,7 @@ h1,h2,h3{
     align-items: center;
     justify-content: center;
 }
-.contenido-hero h2, .contenido-hero p{
+.contenido-banner h2, .contenido-banner p{
     color: var(--blanco);
 }
 .ubicacion{
